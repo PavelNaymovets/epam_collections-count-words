@@ -7,7 +7,7 @@ import java.util.Map.Entry;
 public class Words {
 
     public String countWords(List<String> lines) {
-        Map<String, Integer> map = new HashMap<>();
+        Map<String, Integer> map = new TreeMap<>();
 
         List<String> lowerCaseLines = new ArrayList<>();
         for(String line:lines){
